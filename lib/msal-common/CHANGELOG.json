@@ -2,6 +2,49 @@
   "name": "@azure/msal-common",
   "entries": [
     {
+      "date": "Mon, 17 Apr 2023 22:51:06 GMT",
+      "tag": "@azure/msal-common_v13.0.0",
+      "version": "13.0.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "629883fbfe597b56260483e4567bacd9ae9ba81d",
+            "comment": "Remove unused enum"
+          },
+          {
+            "author": "rginsburg@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "c0c956a1d31ca5fd4218e04616911a96eac37ba6",
+            "comment": "Exception is thrown in acquireTokenByClientCredential if tenantId is missing #5805"
+          }
+        ],
+        "none": [
+          {
+            "author": "hemoral@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "c0c956a1d31ca5fd4218e04616911a96eac37ba6",
+            "comment": "Allow major change types for v3 updates #5746"
+          },
+          {
+            "author": "hemoral@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "c0c956a1d31ca5fd4218e04616911a96eac37ba6",
+            "comment": "Msal v3 final rebase #5859"
+          }
+        ],
+        "major": [
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-common",
+            "commit": "9f5c1288cbe52fa2176f41269032c7bb7920de14",
+            "comment": "Fix telemetry typos #5868"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 03 Apr 2023 21:29:31 GMT",
       "tag": "@azure/msal-common_v12.0.0",
       "version": "12.0.0",

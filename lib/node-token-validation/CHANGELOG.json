@@ -2,6 +2,33 @@
   "name": "@azure/node-token-validation",
   "entries": [
     {
+      "date": "Mon, 17 Apr 2023 22:51:07 GMT",
+      "tag": "@azure/node-token-validation_v1.0.0-alpha.0",
+      "version": "1.0.0-alpha.0",
+      "comments": {
+        "none": [
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/node-token-validation",
+            "commit": "c0c956a1d31ca5fd4218e04616911a96eac37ba6",
+            "comment": "Bump typescript to 4.9.5 and build target to es2020 #5750"
+          },
+          {
+            "author": "hemoral@microsoft.com",
+            "package": "@azure/node-token-validation",
+            "commit": "c0c956a1d31ca5fd4218e04616911a96eac37ba6",
+            "comment": "Msal v3 final rebase #5859"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/node-token-validation",
+            "comment": "Bump @azure/msal-common to v13.0.0",
+            "commit": "b2536c48f4437035c8d15a83bf1d076cf2ecc7c0"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 03 Apr 2023 21:29:31 GMT",
       "tag": "@azure/node-token-validation_v1.0.0-alpha.0",
       "version": "1.0.0-alpha.0",

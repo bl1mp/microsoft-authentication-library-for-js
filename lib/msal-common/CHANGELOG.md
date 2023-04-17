@@ -1,8 +1,21 @@
 # Change Log - @azure/msal-common
 
-This log was last generated on Mon, 03 Apr 2023 21:29:31 GMT and should not be manually modified.
+This log was last generated on Mon, 17 Apr 2023 22:51:06 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 13.0.0
+
+Mon, 17 Apr 2023 22:51:06 GMT
+
+### Major changes
+
+- Fix telemetry typos #5868 (kshabelko@microsoft.com)
+
+### Patches
+
+- Remove unused enum (thomas.norling@microsoft.com)
+- Exception is thrown in acquireTokenByClientCredential if tenantId is missing #5805 (rginsburg@microsoft.com)
 
 ## 12.0.0
 
